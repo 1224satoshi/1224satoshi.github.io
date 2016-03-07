@@ -11,8 +11,76 @@
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- BootstrapのJS読み込み-->
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-      </head>
+      <style>
+          body{
+              font-size: 14px;
+          }
+          .navber{
+              border-radius: 0;
+          }
+          .row{
+              margin-buttom: 50px;
+          }
+          .icon{
+              text-align: center;
+          }
+          .icon .glyphicon{
+              margin-bottom: 10px;
+              font-size: 40px;
+              color: #777;
+          }
+          .content h2{
+              margin-bottom: 10px;
+              font-size: 40px;
+              color: #777;
+          }
+          .content h2{
+              margin-top: 0;
+              padding-bottom: 15px;
+          }
+          .content p{
+              margin-bottom: 30px;
+          }
+          footer{
+              border-top: 1px solid#e7e7e7;
+              background-color: #f8f8f8;
+              text-align: center;
+          }
+          .copyright{
+              padding: 20px 0;
+              font-size: 12px;
+              color: #666;
+          }
+          @media (max-width: 768px) {
+              body{
+                  font-size: 12px;
+              }
+              h1{font-size: 30px;
+              }
+              h2{font-size: 24px;
+              }
+              .panel-tytle{
+                  font-size: 14px;
+              }
+      </style>
+　 </head>
       <body>
-         <h1>Hello,world!</h1>
+         <header>
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="buttton" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <!--この四行の意味が分からない-->
+                      </button>
+                      <a class="navbar-brand" href="#">example</a>
+                  </div>
+            <div id="logo">
+                <img src="background.jpg" alt="" />
+            </div>
+        </header>
       </body>
 </html>
