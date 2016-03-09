@@ -55,7 +55,7 @@ nav ul li a{
   color: white;
   font-weight: bold;
 }
-nav ul li a.selected{
+.selected{
   color: black;
 }
 .container{
@@ -63,20 +63,14 @@ nav ul li a.selected{
  margin: -100px auto 0;
  background-color: #fff;
 }
-div.only_back p{
-    background:rgba(255,0,0,0,3);
-}
+
 section{
  padding: 30px 20px;
  font-size: xx-large;
  text-align: center;
  background: url(board.jpg);
 }
-section h2{
- padding: 10px 0 20px 0;
- text-align: center;
- letter-spacing: 0.15em;
-}
+
 footer{
 padding: 20px 0;
 font-size :93%;
